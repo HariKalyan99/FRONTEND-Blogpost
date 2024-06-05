@@ -1,4 +1,3 @@
-import './App.css'
 import Blogdashboard from './components/Blogdashboard'
 
 function App() {

@@ -1,11 +1,11 @@
-import Blogdashboard from './components/Blogdashboard'
+import {Outlet} from 'react-router-dom'
+import BlogStoreProvider from './components/store/store'
 
 function App() {
-
   return (
-    <div>
-      <Blogdashboard />
-    </div>
+    <BlogStoreProvider>
+      <Outlet />
+    </BlogStoreProvider>
   )
 }
 

@@ -4,3 +4,12 @@
 }
 
 
+.login-container{
+  position: fixed;
+  inset: 0px;
+  width: 15rem;
+  height: 25rem;
+  max-width: 100vw;
+  max-height: 100dvh;
+  margin: auto;
+}
